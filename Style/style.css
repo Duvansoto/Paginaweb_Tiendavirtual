@@ -1,0 +1,642 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    position: relative;
+    background-image: url(/imagenes/image1.png), url(/imagenes/image2.png);
+    background-size: 100% 100%, 200% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    width: 100%;
+    height: 14rem;
+
+}
+
+.logotipo {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    transform: translateY(-35%);
+    z-index: 10;
+}
+
+.logotipo img {
+    width: 45%;
+    height: auto;
+}
+
+.nvg nav {
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.nvg nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nvg nav ul li {
+    padding: 0rem;
+    z-index: 10;
+
+}
+
+.nvg nav ul li img {
+    width: 35%;
+    height: auto;
+}
+
+#busqueda {
+    position: relative;
+    left: 54%;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    z-index: 10;
+}
+
+.modl {
+    position: relative;
+    display: flex;
+    bottom: 30%;
+
+}
+
+.modl img {
+    margin-left: 60%;
+    width: 28%;
+    height: 5%;
+}
+
+.text {
+    font-family: Segoe Print;
+    color: #8799B0;
+    position: absolute;
+    font-size: 150%;
+    top: 100%;
+    left: 15%;
+}
+
+main {
+    background-image: url(/imagenes/image2.png);
+    background-repeat: no-repeat;
+    margin-top: 15%;
+    padding: 0%;
+
+}
+section{
+    height: 55rem;
+}
+.promo {
+    position: relative;
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+    width: 33%;
+    left: 67%;
+}
+
+.titulo {
+    position: absolute;
+    font-family: Segoe Print;
+    color: #8799B0;
+    top: 75%;
+    left: 7%;
+    z-index: 10;
+}
+
+.nvg1 {
+    position: relative;
+    padding: 0%;
+    margin-top: 5%;
+    z-index: 10;
+
+}
+
+.nvg1 nav ul {
+    list-style: none;
+}
+
+.nvg1 nav ul li {
+    padding: 30px;
+}
+
+.nvg1 nav ul li a {
+    box-shadow: 2px 2px 2px 2px #000000;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Bahnschrift SemiBold;
+    background-color: #e9e2d8;
+    color: #000000;
+    border-radius: 5px;
+    width: 15%;
+    height: 2rem;
+}
+
+.texto1 {
+    font-size: xx-large;
+    font-family: Bahnschrift Light;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.texto2 {
+    font-size: xxx-large;
+    font-family: Segoe Print;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.model1 {
+    z-index: 10;
+    position: absolute;
+    margin-left: 10%;
+    bottom: 0%;
+    top: 90%;
+
+
+}
+
+.model1 img {
+    width: 75%;
+    height: auto;
+}
+
+.texto3 {
+    position: relative;
+    font-size: 1.2rem;
+    font-family: Bahnschrift Light;
+    text-align: center;
+    left: 40%;
+    bottom: 25rem;
+    width: 20%;
+    height: auto;
+}
+
+.logo1 {
+    z-index: 10;
+    position: relative;
+    margin-left: 20%;
+    bottom: 40rem;
+}
+
+.model2 {
+    position: relative;
+    margin-left: 65%;
+    bottom: 105rem;
+}
+
+.model2 img {
+    width: 100%;
+    height: auto;
+}
+
+.titulo1{
+    text-align: center;
+    font-size: x-large;
+    top: 15mm;
+}
+.texto{
+font-size: larger;
+margin-top: 5%;
+}
+.nav1 nav {
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.nav1 nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav1 nav ul li {
+    padding: 0rem;
+    z-index: 10;
+
+}
+
+.nav1 nav ul li img {
+    width: 35%;
+    height: auto;
+}
+footer{
+    position: relative;
+    background-image: url(/imagenes/image1_0.png), url(/imagenes/image2.png);
+    background-size: 100% 80%, 200% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    width: 100%;
+    height: 25rem;
+}
+.nav2 {
+    position: absolute;
+    width: 100%;
+    right: 30%;
+    bottom: 15%;
+    text-align: center;
+    
+}
+.nav2 a{
+    text-decoration: none;
+}
+
+.nav2 a img {
+    display: block;
+    margin: 0 auto;
+    width: 5rem;
+    height: auto;
+}
+
+.nav2 img:hover{
+    transform:translateY(-5px) ;
+}
+.titulo0{
+    position: relative;
+    text-align:center;
+    z-index: 10;
+    top: 10%;
+    font-family: Bahnschrift SemiLight;
+}
+.pantal1{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 18%;
+    bottom:15rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño1{
+    position: relative;
+    top: 5%;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin: 10%;
+}
+.diseño1 img{
+    width: 80%;
+    
+}
+.pantal1 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito1{
+    position: relative;
+    left: 70%;
+    bottom: 3rem;
+}
+.pantal2{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 42%;
+    bottom:46.7rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño2{
+    position: relative;
+    border-radius: 5%;
+    top: 5%;
+    background-color: #ffffff;
+    margin: 10%;
+}
+.diseño2 img{
+    width: 80%;
+    height: auto;
+    
+}
+.pantal2 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito2{
+    position: relative;
+    left: 70%;
+    bottom: 3rem;
+}
+.pantal3{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 65%;
+    bottom:78.4rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño3{
+    position: relative;
+    border-radius: 5%;
+    top: 5%;
+    background-color: #ffffff;
+    margin: 10%;
+}
+.diseño3 img{
+    width: 80%;
+    
+}
+.pantal3 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito3{
+    position: relative;
+    left: 60%;
+    bottom: 3rem;
+}
+.harem1{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 18%;
+    bottom:15rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño4{
+    position: relative;
+    top: 5%;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin: 10%;
+}
+.diseño4 img{
+    width: 80%;
+    height: 15rem;
+    
+}
+.harem1 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito4{
+    position: relative;
+    left: 70%;
+    bottom: 3rem;
+}
+.harem2{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 42%;
+    bottom:46.7rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño5{
+    position: relative;
+    border-radius: 5%;
+    top: 5%;
+    background-color: #ffffff;
+    margin: 10%;
+}
+.diseño5 img{
+    width: 80%;
+    height: 15rem;
+    
+}
+.harem2 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito5{
+    position: relative;
+    left: 70%;
+    bottom: 3rem;
+}
+.harem3{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 65%;
+    bottom:78.4rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño6{
+    position: relative;
+    border-radius: 5%;
+    top: 5%;
+    background-color: #ffffff;
+    margin: 10%;
+}
+.diseño6 img{
+    width: 80%;
+    height: 15rem;
+    
+}
+.harem3 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito6{
+    position: relative;
+    left: 60%;
+    bottom: 3rem;
+}
+.aladino1{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 18%;
+    bottom:15rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño7{
+    position: relative;
+    top: 5%;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin: 10%;
+}
+.diseño7 img{
+    width: 80%;
+    height: 15rem;
+    
+}
+.aladino1 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito7{
+    position: relative;
+    left: 70%;
+    bottom: 3rem;
+}
+.aladino2{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 42%;
+    bottom:46.7rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño8{
+    position: relative;
+    border-radius: 5%;
+    top: 5%;
+    background-color: #ffffff;
+    margin: 10%;
+}
+.diseño8 img{
+    width: 80%;
+    height: 15rem;
+    
+}
+.aladino2 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito8{
+    position: relative;
+    left: 70%;
+    bottom: 3rem;
+}
+.aladino3{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 65%;
+    bottom:78.4rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño9{
+    position: relative;
+    border-radius: 5%;
+    top: 5%;
+    background-color: #ffffff;
+    margin: 10%;
+}
+.diseño9 img{
+    width: 80%;
+    height: 15rem;
+    
+}
+.aladino3 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito9{
+    position: relative;
+    left: 60%;
+    bottom: 3rem;
+}
+.bombacho1{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 18%;
+    bottom:15rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño10{
+    position: relative;
+    top: 5%;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin: 10%;
+}
+.diseño10 img{
+    width: 80%;
+    height: 15rem;
+    
+}
+.bombacho1 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito10{
+    position: relative;
+    left: 70%;
+    bottom: 3rem;
+}
+.bombacho2{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 42%;
+    bottom:46.7rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño11{
+    position: relative;
+    border-radius: 5%;
+    top: 5%;
+    background-color: #ffffff;
+    margin: 10%;
+}
+.diseño11 img{
+    width: 80%;
+    height: 15rem;
+    
+}
+.bombacho2 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito11{
+    position: relative;
+    left: 70%;
+    bottom: 3rem;
+}
+.bombacho3{
+    position:relative;
+    background-color: #e6e6e6;
+    border-radius: 5%;
+    box-shadow:  5px 5px 5px 5px #000000;
+    left: 65%;
+    bottom:78.4rem;
+    width: 20%;
+    height: 30rem;
+}
+.diseño12{
+    position: relative;
+    border-radius: 5%;
+    top: 5%;
+    background-color: #ffffff;
+    margin: 10%;
+}
+.diseño12 img{
+    width: 80%;
+    height: 15rem;
+    
+}
+.bombacho3 p{
+    margin-left: 2%;
+    margin-top: 20%;
+}
+.carrito12{
+    position: relative;
+    left: 60%;
+    bottom: 3rem;
+}
